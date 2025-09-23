@@ -360,3 +360,31 @@ font-family: "Raleway",sans-serif;
     position: absolute;
     right: 0;
  }
+ 
+ /* app section */
+ .app-section{
+    text-align: center;
+ }
+ .app-section .app-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 25px;
+ }
+
+ .app-section .app-btn{
+    padding: 16px 32px;
+    background: #000;
+    min-width: 310px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+ }
+
+ .app-section .app-btn span{
+    font-weight: normal;
+    font-size: 20px;
+    color: #fff;
+ }
