@@ -388,3 +388,71 @@ font-family: "Raleway",sans-serif;
     font-size: 20px;
     color: #fff;
  }
+
+ /* footer section */
+ footer{
+    background: var(--dark-color);
+    color: #fff;
+    margin-top: 100px;
+    padding: 70px 0;
+ }
+ footer a{
+    text-decoration: none;
+    color: #fff;
+ }
+ footer h3{
+    color: var(--orange-color);
+ }
+ footer ul{
+    list-style: none;
+    padding-left: 20px;
+ }
+ footer ul li {
+    margin: 16px 0;
+ }
+ footer .links-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+ }
+ footer .social{
+    margin-left: 20px;
+ }
+ footer .social a{
+    margin-right: 25px;
+ }
+ footer form{
+       margin-left: 20px;
+       margin-top: 15px;
+       position: relative;
+ }
+ footer form input{
+    font-family: "Poppins",sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    border-radius: 8px;
+    padding: 8px 160px 8px 32px;
+    width: 100%;
+    border: none;
+ }
+
+ footer form .submit-btn{
+ position: absolute;
+ right: 5px;
+ top: 50%;
+ transform: translateY(-50%);
+ background: var(--dark-blue-color);
+ color: #fff;
+ border-radius: 8px;
+ padding: 10px 30px;
+ border: 0;
+ font-family: "Poppins", sans-serif;
+ font-weight: normal;
+ font-size: 16px;
+ cursor: pointer;
+ }
+ footer .copyright{
+    margin-top: 40px;
+    text-align: center;
+    color: var(--orange-color);
+ }
